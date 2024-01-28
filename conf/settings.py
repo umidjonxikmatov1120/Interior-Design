@@ -93,7 +93,12 @@ AUTH_PASSWORD_VALIDATORS = [
 
 LANGUAGE_CODE = 'en'
 
+LANGUAGES = [
+    ('en', 'English'),
+    ('ru', 'Russian'),
+    ('uz', 'Uzbek')
 
+]
 LOCALE_PATHS = BASE_DIR / 'locale',
 
 TIME_ZONE = 'UTC'
