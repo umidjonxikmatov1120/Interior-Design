@@ -189,7 +189,7 @@
         <div class="row">
           {% for blog in blogs %}
             <div class="col-sm-4 wow fadeIn">
-            <div class="post-thumb"><a href="blog-in.html"><img class="img-responsive" src="{{ blog.photo.url }}" alt="" title="" /></a>
+            <div class="post-thumb"><a href="{% url 'pages:blog' %}"><img class="img-responsive" src="{{ blog.photo.url }}" alt="" title="" /></a>
               <div class="post-meta"><span><i class="fa fa-comments-o"></i>{{ blog.comments }} Comments</span><span><i class="fa fa-heart"></i>{{ blog.likes }} Likes</span></div>
               <div class="post-icon"><i class="fa fa-pencil"></i></div>
             </div>

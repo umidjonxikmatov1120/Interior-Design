@@ -14,6 +14,7 @@ def home_page_view(request):
         "images": image,
         "services": services,
         "blogs": blogs,
+
     }
     return render(request, template_name='home.html', context=context)
 
