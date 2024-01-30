@@ -94,10 +94,15 @@ LANGUAGE_CODE = 'en'
 
 TIME_ZONE = 'UTC'
 
-
+USE_I18N = True
 
 USE_TZ = True
 
+LANGUAGES = [
+    ('uz', 'Uzbek'),
+    ('ru', 'Russian'),
+    ('en', 'English')
+]
 
 STATIC_URL = '/static/'
 STATIC_ROOT = BASE_DIR / 'static'
