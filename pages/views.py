@@ -15,7 +15,7 @@ def home_page_view(request):
         "services": services,
         "blogs": blogs,
     }
-    return render(request, template_name='Templates/home.html', context=context)
+    return render(request, template_name='home.html', context=context)
 
 
 def contact_page_view(request):
